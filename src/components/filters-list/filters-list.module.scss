@@ -1,0 +1,31 @@
+.filters {
+    background-color: white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    border-radius: 4px;
+    width: 210px;
+    @media (max-width: 767px) {
+        width: 90vw;
+    }
+}
+
+.filters__title {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    color: #4A4A4A;
+}
+
+.filters__list {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 767px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
